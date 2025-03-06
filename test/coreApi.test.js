@@ -1,6 +1,4 @@
-'use strict';
-
-import { expect } from 'chai';
+import { describe, it, expect } from 'vitest';
 import { CoreApi } from '../index.js';
 import { serverKey, clientKey } from './sharedConstants.js';
 

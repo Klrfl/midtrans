@@ -1,4 +1,4 @@
-import { expect } from 'chai';
+import { describe, it, expect } from 'vitest';
 import { Snap } from '../index.js';
 import { serverKey, clientKey } from './sharedConstants.js';
 

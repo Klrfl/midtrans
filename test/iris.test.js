@@ -1,6 +1,6 @@
 // @TODO continue and create thorough test for IRIS
 
-import { expect } from 'chai';
+import { describe, it, expect } from 'vitest';
 import { Iris } from '../index.js';
 import { irisApiKey } from './sharedConstants.js';
 let globVar = {};
