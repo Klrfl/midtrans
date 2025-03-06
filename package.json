@@ -4,7 +4,7 @@
   "description": "Official Midtrans Payment API Client for Node JS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "vitest",
     "format": "prettier --write ."
   },
   "type": "module",
@@ -31,7 +31,6 @@
     "prettier": "^3.5.3"
   },
   "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^9.2.0"
+    "vitest": "^3.0.8"
   }
 }
