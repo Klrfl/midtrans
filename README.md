@@ -3,29 +3,33 @@
 [![NPM](https://nodei.co/npm/midtrans-client.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/midtrans-client/)
 
 [![npm version](https://img.shields.io/npm/v/midtrans-client.svg?style=flat-square)](https://www.npmjs.org/package/midtrans-client)
-[![Build Status](https://travis-ci.org/rizdaprasetya/midtrans-nodejs-client.svg?branch=master)](https://travis-ci.org/rizdaprasetya/midtrans-nodejs-client)
 ![NPM download/month](https://img.shields.io/npm/dm/midtrans-client.svg)
 ![NPM download total](https://img.shields.io/npm/dt/midtrans-client.svg)
 
 Midtrans ❤️ Node JS!
 
-This is the Official Node JS API client/library for Midtrans Payment API. Visit [https://midtrans.com](https://midtrans.com). More information about the product and see documentation at [http://docs.midtrans.com](https://docs.midtrans.com) for more technical details.
+This is a fork of the Official Node JS API client/library for Midtrans Payment
+API. Please visit [https://midtrans.com](https://midtrans.com) for more information
+about the product, and [http://docs.midtrans.com](https://docs.midtrans.com) for
+documentation on midtrans SDKs.
+
+## Why make this fork?
+
+It is sad to see the official package in its current unmaintained state, and so
+I took it upon myself to fork this package and create a better version. This fork
+has two main features:
+
+- ES modules
+- type annotations with JSDoc
 
 ## 1. Installation
 
-### 1.a Using NPM
+You can install this package using your favorite package manager:
 
-```
-npm install --save midtrans-client
-```
-
-### 1.b Manual Installation
-
-If you are not using NPM, you can clone or [download](https://github.com/midtrans/midtrans-nodejs-client/archive/master.zip) this repository.
-Then require from `index.js` file.
-
-```javascript
-let midtransClient = require('./midtrans-client-nodejs/index.js');
+```sh
+npm install @klrfl/midtrans-client # for npm
+pnpm add @klrfl/midtrans-client # for pnpm
+yarn install @klrfl/midtrans-client # for yarn
 ```
 
 ## 2. Usage
