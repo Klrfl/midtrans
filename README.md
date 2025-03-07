@@ -32,6 +32,21 @@ pnpm add @klrfl/midtrans-client # for pnpm
 yarn install @klrfl/midtrans-client # for yarn
 ```
 
+## Migrating from `midtrans-client`
+
+Once `@klrfl/midtrans-client` is installed, you can remove midtrans-client with
+`npm uninstall midtrans-client` and start looking for references to the
+`midtrans-client` package in your code.
+
+This package is a drop-in replacement for midtrans-client, so once you update
+every reference to `midtrans-client` to `@klrfl/midtrans-client`, you should
+be good to go!
+
+```js
+- import client from 'midtrans-client'
++ import client from '@klrfl/midtrans-client'
+```
+
 ## 2. Usage
 
 ### 2.1 Choose Product/Method
