@@ -1,5 +1,5 @@
 {
-  "name": "midtrans-client",
+  "name": "@klrfl/midtrans-client",
   "version": "1.4.2",
   "description": "Official Midtrans Payment API Client for Node JS",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/midtrans/midtrans-nodejs-client.git"
+    "url": "git+https://github.com/Klrfl/midtrans.git"
   },
   "homepage": "https://github.com/midtrans/midtrans-nodejs-client",
   "bugs": {
@@ -32,5 +32,10 @@
   },
   "devDependencies": {
     "vitest": "^3.0.8"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
