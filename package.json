@@ -1,7 +1,7 @@
 {
   "name": "@klrfl/midtrans-client",
-  "version": "1.4.2",
-  "description": "Official Midtrans Payment API Client for Node JS",
+  "version": "1.5.0",
+  "description": "An alternative NodeJS client for Midtrans Payment API",
   "main": "index.js",
   "scripts": {
     "test": "vitest",
